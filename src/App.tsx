@@ -40,7 +40,7 @@ function GithubProjects() {
       <a href="https://abjeni.github.io/test-voxel/">
         <img src={voxelsGithub} className="githubIcon"></img>
       </a>
-      <a href="https://abjeni.github.io/test-voxel/">
+      <a href="https://github.com/abjeni/test-voxel/">
         repository link
       </a>
     </div>
