@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import chessShader from './assets/chess_shader.png'
 import octreeShader from './assets/octree_shader.png'
 import truchetShader from './assets/truchet_shader.png'
@@ -49,16 +48,10 @@ function GithubProjects() {
 }
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return <>
+    <p>Work in progress</p>
     <GithubProjects/>
     <Shadertoy/>
-    <div className="card">
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </button>
-    </div>
   </>
 }
 
