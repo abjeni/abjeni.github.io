@@ -1,0 +1,91 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#content {
+  background-color: white;
+  top: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid black;
+}
+
+.title {
+  text-align: center;
+}
+
+#about-and-skills {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#about {
+  width: 30%;
+}
+
+#skills {
+  width: 30%;
+}
+
+.projects {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+
+#shadertoy {
+  aspect-ratio: 4;
+  width: 20%;
+  background-color: black;
+  mask: url(assets/shadertoy.svg) no-repeat center;
+}
+
+.project-list {
+  border: 1px solid black;
+  margin:10px;
+  padding: 5px;
+}
+
+#shadertoy:hover {
+  background-color: #ff8020
+}
+
+.shader {
+  display: block;
+  padding: 10px;
+  width: 100%;
+}
+
+.shader img {
+  border-radius: 10%;
+  width: 100%;
+}
+
+#github {
+  margin:2px;
+  aspect-ratio: 4;
+  width: 20%;
+  background-color: black;
+  mask: url(assets/github.svg) no-repeat center;
+}
+
+#voxels {
+  display: block;
+}
+
+#voxels img {
+  display: block;
+  border-radius: 10%;
+  width: 100%;
+}
+
+#github:hover {
+  background-color: #ff8020;
+}
+
+.card {
+  padding: 2em;
+}
